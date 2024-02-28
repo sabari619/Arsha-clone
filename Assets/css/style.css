@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg-light , .header {
+    background: #37517e !important;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 17px;
+   }
+.navbar-nav .active .nav-link{
+    color: #47b2e4 !important;
+}
+.navbar .navbar-brand{
+    color: white !important;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: -15px;
+}
+.navbar-nav .nav-item{
+    padding-right: 15px;
+}
+.nav-link:hover{
+    color: #47b2e4!important;
+}
+.form-inline button{
+    width: 123px;
+    border-radius: 21px;
+    border: 2px solid #47b2e4;
+    color: white;
+    font-weight: 600;
+}
+.form-inline{
+    margin-right: 5px;
+}
+.form-inline button:hover{
+    background: #47b2e4;
+    border: 2px solid #47b2e4;
+
+}
+.post-header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#post-header{
+    background: #37517e !important;
+}
+.post-header-left h1{
+    color: white;
+    margin-top: 76px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.post-header-left .para {
+    color: white;
+    opacity: 0.5;
+    font-size: 25px;
+    margin-bottom: 61px;
+}
+.container{
+    max-width: 1340px !important;
+}
+.post-header-right .img-fluid{
+    margin-top: 76px;
+}
+.fa-bars{
+    color: white;
+    font-size: 27px;
+}
+.navbar-toggler{
+    border: none;
+}
+#post-header button{
+    width: 160px;
+    border-radius: 21px;
+    border: 2px solid #47b2e4;
+    color: white;
+    font-weight: 600;
+    background: #47b2e4;
+    height: 43px;
+}
+#post-header button:hover{
+    opacity: 0.9;
+}
+.post-header-left-btn{
+    display: flex;
+}
+.fa-circle-play{
+    font-size: 34px;
+    color: white;
+    margin-left: 17px;
+    display: flex !important;
+    align-items: center;
+    cursor: pointer;
+}
+#post-header .btn2{
+    font-size: 21px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#post-header .btn2:hover{
+    color:#47b2e4;
+
+}
+.fa-circle-play:hover{
+    color:#47b2e4;
+}
+.about-title span::before{
+    content: "";
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 0px;
+    left: calc(50% - 60px);
+}
+.about-title span::after{
+    content: "";
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 1px;
+    left: calc(50% - 20px);
+}
+.about-title h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.about-left ul{
+    margin-left: 35px;
+}
+.about-row{
+    margin-top: 30px;
+    opacity: 0.9;
+}
+.about-form button{
+    width: 130px;
+    border-radius: 10px;
+    border: 2px solid #47b2e4;
+    color: #47b2e4;
+    font-weight: 600;
+}
+.about-form button:hover{
+    color: white;
+    background: #47b2e4;
+    border: 2px solid #47b2e4;
+}
+.about-left ul li{
+    text-decoration: none;
+    display: flex;
+}
+.about-left .icn{
+    font-size: 15px;
+    color: #47b2e4;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+#post-about{  
+background-color: #f3f5fa;
+}
+.post-about-row{
+    margin-top: 24px;
+}
+.post-about-left h1{
+    color: #37517e;
+    font-weight: 400;
+    font-size: 34px;
+}
+.post-about-left h1::after{
+content: " velit pariatur architecto aut nihil";
+font-weight: 600;
+color: #37517e;
+}
+.post-about-left span{
+    font-size: 15px;
+    opacity: 0.6;
+}
+.post-about-left{
+    margin-top: 100px;
+}
+.post-about-right{
+    margin-top: 100px;
+}
+.card-header{
+    background: white;
+border: none; 
+
+}
+.card{
+border: none; 
+background: white;
+margin-bottom: 20px;
+}
+.btn-link{
+    color: black;
+    text-decoration: none!important;
+}
+.btn-link:hover {
+    color:#47b2e4;
+    text-decoration: none!important;
+}
+.contact-title p{
+    text-align: center;
+    font-size: 17px;
+    opacity: 0.9;
+}
+.form-control{
+    font-size: 20px;
+} 
+.contact-right-btn{
+    width: 163px;
+    border-radius: 9px;
+    border: 2px solid #47b2e4;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    height: 39px;
+    background: #47b2e4;
+}
+.contact-right-btn:hover{
+    opacity: 0.8;
+}
+.contact-row{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.aa{
+    display: flex;
+}
+.fnt{
+    color: #47b2e4;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 41px;
+    margin-right: 15px;
+    background-color: #f3f5fa;
+}
+.pp{
+    margin-left: 55px;
+}
